@@ -1,6 +1,6 @@
 {% set name = "pgspecial" %}
-{% set version = "1.11.3" %}
-{% set sha256 = "f183da55c37128f7a74fe5b28e997991156f19961e59a1ad0f400ffc9535faba" %}
+{% set version = "1.11.4" %}
+{% set sha256 = "4b57f0e57e28a8a4055423b6bfa28d6037b1ccfdfceb3b7f6792ca3605df4ee0" %}
 
 package:
   name: {{ name|lower }}
