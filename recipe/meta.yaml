@@ -36,7 +36,7 @@ about:
   home: http://pgcli.com
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: License.txt
   summary: 'Meta-commands handler for Postgres Database.'
   dev_url: https://github.com/dbcli/pgspecial
 
