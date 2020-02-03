@@ -1,6 +1,6 @@
 {% set name = "pgspecial" %}
-{% set version = "1.11.3" %}
-{% set sha256 = "f183da55c37128f7a74fe5b28e997991156f19961e59a1ad0f400ffc9535faba" %}
+{% set version = "1.11.9" %}
+{% set sha256 = "77f8651450ccbde7d3036cfe93486a4eeeb5ade28d1ebc4b2ba186fea0023c56" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - python
     - click >=4.1
     - sqlparse >=0.1.19
-    - psycopg2
+    - psycopg2 >=2.7.4
 
 test:
   imports:
@@ -35,8 +35,7 @@ about:
   home: http://pgcli.com
   license: BSD-3-Clause
   license_family: BSD
-  # xref: https://github.com/dbcli/pgspecial/pull/38
-  # license_file: LICENSE.txt
+  license_file: LICENSE.txt
   summary: 'Meta-commands handler for Postgres Database.'
   dev_url: https://github.com/dbcli/pgspecial
 
