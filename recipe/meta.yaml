@@ -19,9 +19,8 @@ build:
 requirements:
   build:
     - python
-    - setuptools
-  host:
     - pip
+    - setuptools
   run:
     - python
     - click >=4.1
@@ -44,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - mariusvniekerk
+
