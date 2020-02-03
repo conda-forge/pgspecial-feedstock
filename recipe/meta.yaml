@@ -14,12 +14,14 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - python
     - setuptools
+  host:
+    - pip
   run:
     - python
     - click >=4.1
