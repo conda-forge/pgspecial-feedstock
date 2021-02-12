@@ -1,6 +1,6 @@
 {% set name = "pgspecial" %}
-{% set version = "1.11.10" %}
-{% set sha256 = "f65c74a7ecfd4d6af3feb963a1bf8a612e5882731f69afd06ae66ffee13238cb" %}
+{% set version = "1.12.0" %}
+{% set sha256 = "a514a9e7194983e9641a927bbb6cd172b7178ecf331d56e40399a4d8149f81e2" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - setuptools
