@@ -8,7 +8,10 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  # The 0.12.0 pypi sdist is broken so using the github release
+  # This should be reverted for the next update
+  url: https://github.com/dbcli/pgspecial/archive/v1.12.0.tar.gz
   sha256: {{ sha256 }}
 
 build:
