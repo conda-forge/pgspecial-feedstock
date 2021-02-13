@@ -5,11 +5,11 @@ Home: http://pgcli.com
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pgspecial-feedstock/blob/master/LICENSE.txt)
 
 Summary: Meta-commands handler for Postgres Database.
 
-
+Development: https://github.com/dbcli/pgspecial
 
 Current build status
 ====================
