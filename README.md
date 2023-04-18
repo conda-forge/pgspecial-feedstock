@@ -1,11 +1,11 @@
-About pgspecial
-===============
+About pgspecial-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pgspecial-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pgcli.com
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pgspecial-feedstock/blob/main/LICENSE.txt)
 
 Summary: Meta-commands handler for Postgres Database.
 
