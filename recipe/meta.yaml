@@ -18,16 +18,18 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - click >=4.1
     - psycopg >=3.0.10
     - sqlparse >=0.1.19
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pgspecial
     - pgspecial.help
